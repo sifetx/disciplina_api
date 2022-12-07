@@ -1,10 +1,12 @@
+//Operações básicas
+
 #include <stdio.h>
-#include <conio.h>
 #include <locale.h>
 
+int num1, num2, soma, sub, mult;
+float div;
+
 main() {
-    int num1, num2, soma, sub, mult;
-    float div;
     setlocale(LC_ALL, "portuguese");
     wprintf(L"Insira dois números: ");
     scanf("%d%d",&num1,&num2);
