@@ -4,7 +4,7 @@
 #include <locale.h>
 #include <wchar.h>
 
-wchar_t quadrado = 0x00B2;   //simbolo do quadrado
+wchar_t quadrado = 0x00B2;   //simbolooo do quadrado
 float preco, area;
 
 main() {
