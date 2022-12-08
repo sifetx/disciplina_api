@@ -1,4 +1,4 @@
-//Operações básicas
+// Operações básicas
 
 #include <stdio.h>
 #include <locale.h>
@@ -14,8 +14,8 @@ main() {
     sub = num1 - num2;
     mult = num1 * num2;
     div = (float)num1 / (float)num2;
-    wprintf(L"A soma é %d\n", soma);
-    wprintf(L"A subtração é %d\n", sub);
-    wprintf(L"A multiplicação é %d\n", mult);
-    wprintf(L"A divisão é %.2f\n", div);
+    wprintf(L"A \033[36msoma\033[0m é \033[33m%d\033[0m\n", soma);
+    wprintf(L"A \033[36msubtração\033[0m é \033[33m%d\033[0m\n", sub);
+    wprintf(L"A \033[36mmultiplicação\033[0m é \033[33m%d\033[0m\n", mult);
+    wprintf(L"A \033[36mdivisão\033[0m é \033[33m%.2f\033[0m\n", div);
 }
