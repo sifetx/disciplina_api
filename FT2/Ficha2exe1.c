@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 #include <locale.h>
+#include <conio.h>
 
 int num1, num2, soma, sub, mult;
 float div;
@@ -18,4 +19,5 @@ main() {
     wprintf(L"A \033[36msubtração\033[0m é \033[33m%d\033[0m\n", sub);
     wprintf(L"A \033[36mmultiplicação\033[0m é \033[33m%d\033[0m\n", mult);
     wprintf(L"A \033[36mdivisão\033[0m é \033[33m%.2f\033[0m\n", div);
+    getch();
 }

@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 #include <locale.h>
+#include <conio.h>
 
 float fahr, cels;
 
@@ -11,4 +12,5 @@ main() {
     scanf("%f", &fahr);
     cels = (fahr-32)/1.8;   //C = 5/9 (F-32)
     wprintf(L"\033[33m%.1fº\033[0m fahrenheit são \033[33m%.1fº\033[0m centígrados", fahr, cels);
+    getch();
 }
