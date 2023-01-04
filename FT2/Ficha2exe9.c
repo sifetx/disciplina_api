@@ -16,6 +16,6 @@ main() {
     num = num * 2;   // *2
     printf("Multiplicando por 2 temos num = %d\n", num);
     num = num / 7;   // /3
-    printf("Dividindo por 7 temos num = %d", num);
+    printf("Dividindo por 7 temos num = %d\n", num);
     getch();
 }
