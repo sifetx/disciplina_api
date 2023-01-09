@@ -2,20 +2,20 @@
 
 #include <stdio.h>
 #include <conio.h>
-#include <windows.h>
+#include <locale.h>
 
 char c;
 
 int main() {
-    SetConsoleOutputCP(65001);
+    setlocale(LC_ALL, "portuguese");
     printf("Introduz um caracter: ");
     scanf("%c", &c);
     if ((c >= 'a' && c <= 'z')) {     //minusculas para maiusculas
-        printf("%c Â»Â» %c\n", c, (int)c-32);
+        printf("%c »» %c\n", c, (int)c-32);
     } else if ((c >= 'A' && c <= 'Z')) {     //maiusculas para minusculas
-        printf("%c Â»Â» %c\n", c, (int)c+32);
+        printf("%c »» %c\n", c, (int)c+32);
     } else {
-        printf("O caracter introduzido nÃ£o pertence ao alfabeto\n");
+        printf("O caracter introduzido não pertence ao alfabeto\n");
     }
     getch();
 }

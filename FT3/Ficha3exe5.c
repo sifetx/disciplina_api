@@ -2,13 +2,13 @@
 
 #include <stdio.h>
 #include <conio.h>
-#include <windows.h>
+#include <locale.h>
 
 char nome1[16], nome2[16];
 int idade1, idade2;
 
 int main() {
-    SetConsoleOutputCP(65001);
+    setlocale(LC_ALL, "portuguese");
     printf("Nome da primeira pessoa: ");
     scanf("%s", &nome1);
     printf("Idade da primeira pessoa: ");
@@ -18,11 +18,11 @@ int main() {
     printf("Idade da segunda pessoa: ");
     scanf("%d", &idade2);
     if (idade1 > idade2) {
-        printf("%s é mais velho(a) que %s por %d anos\n", nome1, nome2, (idade1-idade2));
+        printf("%s � mais velho(a) que %s por %d anos\n", nome1, nome2, (idade1-idade2));
     } else if (idade1 < idade2) {
-        printf("%s é mais velho(a) que %s por %d anos\n", nome2, nome1, (idade2-idade1));
+        printf("%s � mais velho(a) que %s por %d anos\n", nome2, nome1, (idade2-idade1));
     } else {
-        printf("Os dois números são iguais\n");
+        printf("Os dois tem as mesmas idades\n");
     }
     getch();
 }

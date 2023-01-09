@@ -8,17 +8,17 @@ int n;
 
 int main() {
     setlocale(LC_ALL, "portuguese");
-    wprintf(L"Introduz um nÃºmero inteiro: ");
+    printf("Introduz um número inteiro: ");
     scanf("%d", &n);
 
-    // Operador ternÃ¡rio
-    (n % 2 == 0) ? wprintf(L"%d Ã© um nÃºmero par", n): wprintf(L"%d Ã© um nÃºmero impar", n); 
+    // Operador ternário
+    (n % 2 == 0) ? printf("%d é um número par\n", n): printf("%d é um número impar\n", n); 
 
     /* Estrutura condicional normal
     if(n % 2 == 0) {
-        wprintf(L"%d Ã© um nÃºmero par", n);
+        printf("%d é um número par", n);
     } else {
-        wprintf(L"%d Ã© um nÃºmero impar", n);
+        printf("%d é um número impar", n);
     } */
    getch();
 }

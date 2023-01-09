@@ -8,15 +8,15 @@ float salario;
 
 int main() {
     setlocale(LC_ALL, "portuguese");
-    wprintf(L"Ordenado: ");
+    printf("Ordenado: ");
     scanf("%f", &salario);
 
     if (salario < 0) {
-        wprintf(L"O salÃ¡rio nÃ£o pode ser negativo!");
+        printf("O salário não pode ser negativo!");
     } else if (salario < 706) {
-        wprintf(L"Para esse salÃ¡rio o aumento serÃ¡ de 20%%, logo, o salÃ¡rio passarÃ¡ a ser %.2f\n", salario*1.2);
+        printf("Para esse salário o aumento será de 20%%, logo, o salário passará a ser %.2f\n", salario*1.2);
     } else {
-        wprintf(L"Para esse salÃ¡rio o aumento serÃ¡ de 5%%, logo, o salÃ¡rio passarÃ¡ a ser %.2f\n", salario*1.05);
+        printf("Para esse salário o aumento será de 5%%, logo, o salário passará a ser %.2f\n", salario*1.05);
     }
     getch();
 }

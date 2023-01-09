@@ -1,30 +1,30 @@
-// Tri√¢ngulos
+// Tri‚ngulos
 
 #include <stdio.h>
 #include <conio.h>
-#include <windows.h>
+#include <locale.h>
 
 int l1, l2, l3;
 
 int main() {
-    SetConsoleOutputCP(65001);
-    printf("Primeiro segmento do tri√¢ngulo: ");
+    setlocale(LC_ALL, "portuguese");
+    printf("Primeiro segmento do tri‚ngulo: ");
     scanf("%d", &l1);
-    printf("Segundo segmento do tri√¢ngulo: ");
+    printf("Segundo segmento do tri‚ngulo: ");
     scanf("%d", &l2);
-    printf("Terceiro segmento do tri√¢ngulo: ");
+    printf("Terceiro segmento do tri‚ngulo: ");
     scanf("%d", &l3);
     if (l1+l2>l3 && l2+l3>l1 && l1+l3>l2) {
-        printf("Com os segmentos introduzidos √© possivel criar um tri√¢ngulo ");
+        printf("Com os segmentos introduzidos È possivel criar um tri‚ngulo ");
         if (l1 == l2 && l1 == l3 && l2 == l3) {
-            printf("equil√°tero\n");
+            printf("equil·tero\n");
         } else if (l1 != l2 && l1 != l3 && l2 != l3) {
             printf("escaleno\n");
         } else {
-            printf("is√≥sceles\n");
+            printf("isÛsceles\n");
         }
     } else {
-        printf("Com os segmentos introduzidos n√£o √© possivel criar um tri√¢ngulo\n");
+        printf("Com os segmentos introduzidos n„o È possivel criar um tri‚ngulo\n");
     }
     getch();
 }

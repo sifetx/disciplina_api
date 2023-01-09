@@ -1,18 +1,18 @@
 // Peso ideal
 
-// - para o sexo masculino: peso ideal = (72,7 * altura) â€“ 58
-// - para o sexo feminino: peso ideal = (62,1 * altura) â€“ 44,7
+// - para o sexo masculino: peso ideal = (72,7 * altura) - 58
+// - para o sexo feminino: peso ideal = (62,1 * altura) - 44,7
 
 #include <stdio.h>
 #include <conio.h>
-#include <windows.h>
+#include <locale.h>
 
 char nome[16]; 
 char sexo;
 float altura;
 
 int main() {
-    SetConsoleOutputCP(65001);
+    setlocale(LC_ALL, "portuguese");
     printf("Nome: ");
     scanf("%s", &nome);
     printf("Sexo [M/F]: ");
@@ -21,11 +21,11 @@ int main() {
     scanf("%f", &altura);
 
     if ((sexo == 'm' || sexo == 'M') && (altura > 0)) {
-        printf("O peso ideal de %s Ã© %.2f\n", nome, ((72.7*altura)-58));
+        printf("O peso ideal de %s é %.2f\n", nome, ((72.7*altura)-58));
     } else if ((sexo == 'f' || sexo == 'F') && (altura > 0)) {
-        printf("O peso ideal de %s Ã© %.2f\n", nome, ((62.1*altura)-44.7));
+        printf("O peso ideal de %s é %.2f\n", nome, ((62.1*altura)-44.7));
     } else {
-        printf("O sexo sÃ³ pode assumir o valor de M ou F (masculino e feminino, respetivamente)\n");
+        printf("O sexo só pode assumir o valor de M ou F (masculino e feminino, respetivamente)\n");
     }
     getch();
 }

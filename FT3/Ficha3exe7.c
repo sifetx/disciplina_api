@@ -1,22 +1,22 @@
-// Letra, nÃºmero, ou outro caracter
+// Letra, número, ou outro caracter
 
 #include <stdio.h>
 #include <conio.h>
-#include <windows.h>
+#include <locale.h>
 
 char c;
 
 int main() {
-    SetConsoleOutputCP(65001);
+    setlocale(LC_ALL, "portuguese");
     printf("Introduz um caracter: ");
     scanf("%c", &c);
     printf("O caracter introduzido ");
     if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')) {     //letra
-        printf("Ã© uma letra\n");
+        printf("É uma letra\n");
     } else if ((c >= '0' && c <= '9')) {     //numero
-        printf("Ã© um nÃºmero\n");
+        printf("é um número\n");
     } else {    //outro caracter
-        printf("nÃ£o Ã© nem uma letra, nem um nÃºmero\n");
+        printf("não é nem uma letra, nem um número\n");
     }
     getch();
 }

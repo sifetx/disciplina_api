@@ -8,8 +8,8 @@ char c;
 
 int main() {
     setlocale(LC_ALL, "portuguese");
-    wprintf(L"Insere um caracter: ");
+    printf("Insere um caracter: ");
     scanf("%c", &c);
-    (c == 'a' || c == 'A') ? wprintf(L"ParabÃ©ns!! Acertou!!!\n") : wprintf(L"Oh... Fica para a prÃ³xima...\n");
+    (c == 'a' || c == 'A') ? printf("Parabéns!! Acertou!!!\n") : printf("Oh... Fica para a próxima...\n");
     getch();
 }

@@ -2,13 +2,13 @@
 
 #include <stdio.h>
 #include <conio.h>
-#include <windows.h>
+#include <locale.h>
 
 int mes;
 
 int main() {
-    SetConsoleOutputCP(65001);
-    printf("Introduz o mÃªs do ano (de 1 a 12): ");
+    setlocale(LC_ALL, "portuguese");
+    printf("Introduz o mês do ano (de 1 a 12): ");
     scanf("%d", &mes);
     switch (mes) {
         case 1:
@@ -18,7 +18,7 @@ int main() {
             printf("Fevereiro tem 28 dias (29 dias nos anos bissextos)\n");
             break;
         case 3:
-            printf("MarÃ§o tem 31\n");
+            printf("Março tem 31\n");
             break;
         case 4:
             printf("Abril tem 30 dias\n");
@@ -48,7 +48,7 @@ int main() {
             printf("Dezembro tem 31 dias\n");
             break;
         default:
-            printf("MÃªs invÃ¡lido, utiliza valores entre 1 a 12\n");
+            printf("Mês inválido, utiliza valores entre 1 a 12\n");
             break;
     }
     getch();
