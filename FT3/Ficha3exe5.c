@@ -22,7 +22,7 @@ int main() {
     } else if (idade1 < idade2) {
         printf("%s é mais velho(a) que %s por %d anos\n", nome2, nome1, (idade2-idade1));
     } else {
-        printf("Os dois tem as mesmas idades\n");
+        printf("Os dois tem a mesma idade\n");
     }
     getch();
 }
