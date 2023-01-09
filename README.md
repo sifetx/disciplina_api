@@ -19,3 +19,19 @@
 - [Exercicio 7](https://github.com/sifetx/disciplina_api/blob/main/FT2/Ficha2exe7.c)
 - [Exercicio 8](https://github.com/sifetx/disciplina_api/blob/main/FT2/Ficha2exe8.c)
 - [Exercicio 9](https://github.com/sifetx/disciplina_api/blob/main/FT2/Ficha2exe9.c)
+
+
+## [Ficha 3](https://github.com/sifetx/disciplina_api/tree/main/FT3)
+
+- [Exercicio 1](https://github.com/sifetx/disciplina_api/blob/main/FT3/Ficha3exe1.c)
+- [Exercicio 2](https://github.com/sifetx/disciplina_api/blob/main/FT3/Ficha3exe2.c)
+- [Exercicio 3](https://github.com/sifetx/disciplina_api/blob/main/FT3/Ficha3exe3.c)
+- [Exercicio 4](https://github.com/sifetx/disciplina_api/blob/main/FT3/Ficha3exe4.c)
+- [Exercicio 5](https://github.com/sifetx/disciplina_api/blob/main/FT3/Ficha3exe5.c)
+- [Exercicio 6](https://github.com/sifetx/disciplina_api/blob/main/FT3/Ficha3exe6.c)
+- [Exercicio 7](https://github.com/sifetx/disciplina_api/blob/main/FT3/Ficha3exe7.c)
+- [Exercicio 8](https://github.com/sifetx/disciplina_api/blob/main/FT3/Ficha3exe8.c)
+- [Exercicio 9](https://github.com/sifetx/disciplina_api/blob/main/FT3/Ficha3exe9.c)
+- [Exercicio 10](https://github.com/sifetx/disciplina_api/blob/main/FT3/Ficha3exe10.c)
+- [Exercicio 11](https://github.com/sifetx/disciplina_api/blob/main/FT3/Ficha3exe11.c)
+- [Exercicio 12](https://github.com/sifetx/disciplina_api/blob/main/FT3/Ficha3exe12.c)
