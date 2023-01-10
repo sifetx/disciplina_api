@@ -4,6 +4,6 @@
 
 main() {
     setlocale(LC_ALL, "portuguese");
-    wprintf(L"/Hoje est√° um \"Lindo dia!!!\"\\");
+    printf("/Hoje est· um \"Lindo dia!!!\"\\");
     getch();
 }

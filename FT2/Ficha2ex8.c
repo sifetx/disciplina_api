@@ -15,7 +15,7 @@ main() {
     printf("Idade: ");
     scanf("%d", &idade);
     if (idade < 0 || idade > ano_atual) {
-        wprintf(L"Idade inv√°lida!");
+        printf("Idade inv·lida!");
     } else {
         printf("Nome: %s\nIdade: %d\nAno de nascimento: %d\n", nome, idade, ano_atual-idade);
     }

@@ -9,9 +9,9 @@ int n;
 
 main() {
     setlocale(LC_ALL, "portuguese");
-    wprintf(L"NÃºmero: ");
+    wprintf(L"Número: ");
     scanf("%d", &n);
-    wprintf(L"O quadrado de %d Ã© %.0f"
-            "\nA raiz quadrada de %d Ã© %.2f", n, pow(n,2), n, sqrt(n));
+    wprintf(L"O quadrado de %d é %.0f"
+            "\nA raiz quadrada de %d é %.2f", n, pow(n,2), n, sqrt(n));
     getch();
 }

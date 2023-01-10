@@ -1,4 +1,4 @@
-// OperaÃ§Ãµes bÃ¡sicas
+// Operações básicas
 
 #include <stdio.h>
 #include <locale.h>
@@ -9,15 +9,15 @@ float div;
 
 main() {
     setlocale(LC_ALL, "portuguese");
-    wprintf(L"Insira dois nÃºmeros: ");
+    printf("Insira dois números: ");
     scanf("%d%d",&num1,&num2);
     soma = num1 + num2;
     sub = num1 - num2;
     mult = num1 * num2;
     div = (float)num1 / (float)num2;
-    wprintf(L"A soma Ã© %d\n", soma);
-    wprintf(L"A subtraÃ§Ã£o Ã© %d\n", sub);
-    wprintf(L"A multiplicaÃ§Ã£o Ã© %d\n", mult);
-    wprintf(L"A divisÃ£o Ã© %.2f\n", div);
+    printf("A soma é %d\n", soma);
+    printf("A subtração é %d\n", sub);
+    printf("A multiplicação é %d\n", mult);
+    printf("A divisão é %.2f\n", div);
     getch();
 }

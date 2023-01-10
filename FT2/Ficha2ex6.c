@@ -1,4 +1,4 @@
-// Fahrenheit para CentÃ­grados
+// Fahrenheit para Centí­grados
 
 #include <stdio.h>
 #include <locale.h>
@@ -8,9 +8,9 @@ float fahr, cels;
 
 main() {
     setlocale(LC_ALL, "portuguese");
-    wprintf(L"Temperatura em fahrenheit: ");
+    printf("Temperatura em fahrenheit: ");
     scanf("%f", &fahr);
     cels = (fahr-32)/1.8;   //C = 5/9 (F-32)
-    wprintf(L"%.1fÂº fahrenheit sÃ£o %.1fÂº centÃ­grados", fahr, cels);
+    printf("%.1fº fahrenheit são %.1fº centígrados", fahr, cels);
     getch();
 }
