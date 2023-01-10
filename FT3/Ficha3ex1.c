@@ -1,4 +1,4 @@
-// NÃºmero par ou impar
+// Número par ou impar
 
 #include <stdio.h>
 #include <conio.h>

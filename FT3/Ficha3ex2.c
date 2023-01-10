@@ -1,4 +1,4 @@
-// Sal√°rio
+// Sal·rio
 
 #include <stdio.h>
 #include <conio.h>
