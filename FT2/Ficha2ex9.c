@@ -1,4 +1,4 @@
-// OperaÃ§Ãµes com um valor de num
+// Operações com um valor de num
 
 #include <stdio.h>
 #include <conio.h>
